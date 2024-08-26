@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px
+
+}
+body{background-color: #ac9784;
+}
+.nav{
+    
+    background-color: rgb(23, 39, 61);
+    text-align: center;
+    height: 50px;
+   font-size: 19px;
+   color: #eae8e7;
+
+}
+.spsbox{
+    /* background-color: lightslategray; */
+    height:100px;
+    display:flex;
+    margin:10% ; 
+    justify-content: space-between;
+    
+}
+#stone{
+    height:100px ;
+    width:100px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 50%;
+    background-image: url(stone.png);
+    background-size:95px 100px ;
+    box-shadow:0px 0px 5px rgb(127, 128, 128);
+    margin-left: 140px;
+}
+
+#stone:hover{
+    border: 2px solid rgb(147, 81, 136);
+    cursor: pointer;
+}
+#paper:hover{border:2px solid rgb(78, 93, 91);
+    cursor: pointer}
+
+#sisor:hover{border:2px solid rgb(87, 153, 206);
+    cursor: pointer;
+}
+#paper{
+    height:100px ;
+    width:100px;
+    background-color: rgb(133, 28, 117);
+    border-radius: 50%;
+    background-image: url(paper.png);
+    background-size:100px 100px ;
+    box-shadow:0px 0px 5px rgb(127, 128, 128);
+
+}
+#sisor{
+    height:100px ;
+    width:100px;
+    background-color: rgb(183, 205, 56);
+    border-radius: 50%;
+    background-image: url(sisor.png);
+    background-size:95px 100px ;
+    box-shadow:0px 0px 3px rgb(127, 128, 128);
+margin-right: 140px;
+}
+
+.resalt{
+
+    height:100px;
+    
+margin-top: 120px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.you{
+    width:70px;
+    height:60px;
+    background: linear-gradient(29deg,#c5bcb1 2px,#a95b5b );
+    margin: 20px;
+    border-radius: 10px;
+    border:1px solid rgb(34, 32, 32);
+    box-shadow: 1px 2px 4px;
+ font-size: 25px;
+ font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.com{
+    width:70px;
+    height:60px;
+    background: linear-gradient(12deg,#79916e 2px,#444933);
+    border-radius: 10px;
+    border:1px solid rgb(34, 32, 32);
+    box-shadow: 1px 2px 4px;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-wrap: wrap;
+    font-size: 25px;
+    font-weight: 500;
+    margin:20px;
+
+
+
+}
+
+#youscore{
+    margin: 0px 15px 0px 15px;
+}
+#compscore{
+    margin: 0px 15px 0px 15px;
+}
+
+.return{
+    margin: 20px 41% 5%  41.7%;
+    background-color: rgb(30, 29, 29);
+    height: 40px;
+    width:200px;
+    color: rgb(43, 55, 151);
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
